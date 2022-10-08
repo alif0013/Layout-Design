@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-header {
+    background-color: #264653;
+}
+
+.header-content-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 20%;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    padding: 35px;
+    justify-content: end;
+}
+
+/* nav ul {
+    display: flex; */
+
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.login-btn {
+    width: 20%;
+}
+
+.login-btn a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 25px;
+    width: 100px;
+    display: block;
+    text-align: c;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.login-btn a:hover{
+    background-color:#00df40 ;
+}
+/* header section end  */
+.banner-section {
+
+    background-color: #264653;
+    color: white;
+}
+
+.main-banner {
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    margin: 45px 0;
+}
+
+.left-content {
+    width: 50%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.left-content h4 {
+    font-weight: 400;
+    padding: 15px 0;
+    word-break: 2px;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    color: #E0E0E0;
+}
+
+.left-content h1 {
+    font-size: 45px;
+    padding: 20px 0;
+}
+
+.left-content p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 55px;
+    color: #E0E0E0;
+}
+
+.left-content a {
+    text-decoration: none;
+    width: 155px;
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.left-content a:hover {
+    background-color:#00df40 ;
+    
+}
+.right-img {
+    width: 50%;
+    padding: 10px;
+}
+
+/* .right-img img {
+    /* padding: 10px; */
+ 
+
+/* banner section end  */
+.featured-bike-section {
+    padding: 30px 0 0 0;
+}
+
+.featured-bike {
+    padding: 30px 0;
+}
+
+.bike-heading-text {
+    text-align: center;
+}
+
+.bike-heading-text h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.bike-heading-text p {
+    color: red;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.featured-bike-all-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.featured-bike-single-img1 {
+    width: 33.33%;
+}
+
+.featured-bike-single-img1 img {
+    padding: 65px;
+}
+
+/* Fetured Bikes end  */
+
+/* Latest News starts  */
+.latest-news-section {
+    padding: 1px;
+}
+
+.news-heading {
+    padding: 0 0 40px 0;
+}
+
+.news-heading h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.card-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 33.33%;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.card-wrapper {
+    box-shadow: 1px 2px 15px 8px #00000024;
+    padding: 12px;
+}
+
+/* .card-wrapper img {} */
+
+.card-wrapper h2 {
+    padding: 20px 0;
+}
+
+.card-wrapper p {
+    padding: 0 0 20px 0;
+}
+
+.card-wrapper a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 20px;
+    width: 140px;
+    display: block;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+}
+.card-wrapper a:hover{
+    background-color:#00df40 ;
+}
+
+/* Latest News  end  */
+/* Happy Clients review section starts  */
+
+.happy-client-section {
+    padding: 40px 0;
+}
+
+.client-heading {
+    text-align: center;
+    padding: 40px;
+}
+
+.client-heading h1 {
+    font-size: 45px;
+    padding: 15px;
+}
+
+.client-heading h1 span {
+    color: orange;
+}
+
+
+.review-all-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.single-profile {
+    width: 33.33%;
+    padding: 25px;
+}
+
+.single-profile-wrapper {
+    border: 1px solid black;
+    border: 1px solid #0000005c;
+    padding: 18px;
+}
+
+.single-profile-wrapper img {
+    border: 100%;
+    /* border-radius: 100% 100%; */
+    padding: 30px;
+}
+
+.single-profile-wrapper p {
+    padding: 10px;
+    margin: 15px 0;
+    /* line-height: 25px; */
+}
+
+.single-profile-wrapper i {
+    color: orange;
+       
+    padding: 1px 0px 8px 8px;
+}
+
+.single-profile-wrapper h4 {
+    padding: 6px 0 0 8px;
+    color: blue;
+}
+
+.single-profile-wrapper h5 {
+
+    padding: 8px;
+}
+
+/* Happy Clients review section end  */
+
+/* brands section starts */
+.brands-section{
+    padding: 40px;
+}
+.brands-section h1{
+    font-size: 45px;
+    text-align: center;
+    color: orange;
+}
+.brand-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.bike{
+    width: 25%;
+    /* background: #E0E9F7; */
+    padding: 17px;
+}
+.bike img{
+    background-color: #E0E9F7;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+/* brands section end  */
+
+/* product section start  */
+
+.product-secton{
+    padding: 10px;
+}
+.product-secton h1{
+    text-align: center;
+    font-size: 45px;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.product-pricing-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-product-card{
+    width: 25%;
+    padding: 15px;
+}
+
+.product-card-wrapper{
+    box-shadow: 1px 3px 12px 15px #74747412;
+    padding: 0px 0 10px 0;
+}
+/* .product-card-wrapper img{
+    /* padding: 1px; */
+.product-card-wrapper h2{
+    padding: 12px 10px;
+}
+.product-card-wrapper p{
+    padding: 10px;
+}
+.product-card-wrapper h4{
+    padding: 0 0 10px 10px;
+    text-decoration: line-through;
+    color: #525252b3;
+} 
+.product-card-wrapper h3{
+    padding: 0 0 10px 10px;
+} 
+.product-card-wrapper a{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 8px 10px;
+    display: block;
+    width: 110px;
+    border-radius: 5px;
+    margin: 10px;
+} 
+.product-card-wrapper a:hover{
+    background-color: #00df40;
+}
+.product-card-wrapper a i{
+    padding: 0 4px 0 0;
+}
+
+/* product section end  */
+
+/* footer section start  */
+.main-footer{
+    background-color: #212529;
+    padding: 60px;
+    margin-top: 35px;
+}
+.main-footer h5{
+ color: white;
+ text-align: center;
+ letter-spacing: 1px;
+ font-size: 15px;
+ font-weight: 300;
+}
+
+/* footer section end  */
